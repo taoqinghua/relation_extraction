@@ -1,7 +1,5 @@
-from .train import STSTrainer, QICTrainer, QQRTrainer, QTRTrainer, CTCTrainer, \
-    EETrainer, ERTrainer, RETrainer, CDNForCLSTrainer, CDNForNUMTrainer
-
+from .train import  EETrainer
 __all__ = [
-    'STSTrainer', 'QICTrainer', 'QQRTrainer', 'QTRTrainer', 'CTCTrainer',
-    'EETrainer', 'ERTrainer', 'RETrainer', 'CDNForCLSTrainer', 'CDNForNUMTrainer'
+    
+    'EETrainer'
 ]

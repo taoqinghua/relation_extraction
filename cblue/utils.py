@@ -18,6 +18,7 @@ def load_dict(dict_path):
     """load_dict"""
     vocab = {}
     for line in open(dict_path, 'r', encoding='utf-8'):
+        print("sssssssssssssssssssssss",line)
         key, value = line.strip('\n').split('\t')
         vocab[int(key)] = value
     return vocab
